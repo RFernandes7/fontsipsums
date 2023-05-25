@@ -1,0 +1,1728 @@
+@import url('fonts.css');
+html,body{
+    font-family: Helvetica, sans-serif;
+    color: #111;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0px;
+}
+
+a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #111;
+}
+.main-wrapper{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    background: #070707;
+}
+.main-wrapper .intro{
+    background: #070707;
+    color: #FFF;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    padding: 50px 0;
+}
+
+.intro-wrapper{
+    position: relative;
+    width: 900px;
+    margin: 0px auto;
+}
+
+.main-title{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    color: #FFF;
+}
+
+.and{
+    color: black;
+    -webkit-text-stroke: 2px rgb(5, 108, 5);
+}
+.title-top{
+    font-size: 160px;
+    
+}
+
+.title-sub{
+    font-size: 48px;
+    font-style: italic;
+}
+
+.main-title{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+}
+
+.white{
+    color: #FFF;
+    font-weight: 300;
+}
+
+.colophon{
+    width: 100%;
+    margin: 50px auto;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.colophon a{
+    text-decoration: underline;
+    color: #bbb;
+}
+
+.colophon p{
+    font-family: 'Lato';
+    font-weight: 100;
+    letter-spacing: 0.3px;
+    margin: 5px auto;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.column0{
+    display: inline-block;
+    margin: 10px 10px 10px 25px;
+    width: 66%;
+    vertical-align: top;
+}
+
+.column1{
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+@media screen and (max-width:900px) {
+    .intro-wrapper{
+        width: 90%;
+    }
+    .title-top{
+        font-size: 120px;
+    }
+    .title-sub{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title-top{
+        font-size: 80px;
+    }
+    .title-sub{
+        font-size: 24px;
+    }
+
+    .column0{
+        width: 90%;
+        display: block;
+        margin: 25px auto;
+    }
+
+    .column1{
+        width: 90%;
+        display: block;
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .main-wrapper .intro .intro-wrapper .main-title .title-top{
+        font-size: 50px;
+    }
+
+    .main-wrapper .intro .intro-wrapper .main-title .title-sub{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .main-wrapper .intro .intro-wrapper .main-title .title-top{
+        font-size: 40px;
+    }
+    .main-wrapper .intro .intro-wrapper .main-title .title-sub{
+        font-size: 20px;
+    }
+}
+
+/* block 1 */
+.colorblock-1{
+    background-color: gold;
+}
+
+.colorblock-2{
+    background-color:  #8294C4;
+}
+
+.colorblock-3{
+    background-color: #D95B43;
+}
+
+.colorblock-4{
+    background-color: #C02942;
+}
+
+.colorblock-5{
+    background-color: #53777A;
+}
+
+.colorblock-6{
+    background-color: #FF0051
+}
+
+.colorblock-7{
+    background-color:  #8294C4;
+}
+
+.colorblock-8{
+    background-color: #D95B43;
+}
+
+.colorblock-9{
+    background-color: #C02942;
+}
+
+.colorblock-10{
+    background-color: #4b490b;
+}
+
+.colorblock-11{
+    background-color: #FF0051
+}
+
+.colorblock-12{
+    background-color: #f2b445;
+}
+
+.colorblock-13{
+    background-color: #ebe54d;
+}
+
+.colorblock-14{
+    background-color: #E2DF9A;
+}
+
+.colorblock-15{
+    background-color: #CDEEAA;
+}
+
+.colorblock-16{
+    background-color: #2E99B0;
+}
+
+.colorblock-17{
+    background-color: gold;
+}
+
+
+/* Image Block  */
+.imageBlock-1{
+    background: url(../images/hipster.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-2{
+    background: url(../images/cupcake.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-3{
+    background: url(../images/cheese.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.imageBlock-4{
+    background: url(../images/office.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-5{
+    background: url(../images/corporate.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-6{
+    background: url(../images/space.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-7{
+    background: url(../images/pirate.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.imageBlock-8{
+    background: url(../images/skate.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.imageBlock-9{
+    background: url(../images/zombie.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-10{
+    background: url(../images/bavaria.jpg) no-repeat  center;
+    background-size: cover;
+}
+
+.imageBlock-11{
+    background: url(../images/developer.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-12{
+    background: url(../images/coffee.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.imageBlock-13{
+    background: url(../images/spritual.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-14{
+    background: url(../images/cheeseBurgre.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.imageBlock-15{
+    background: url(../images/wine.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.imageBlock-16{
+    background: url(../images/heisenberg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    padding: 50px 0;
+}
+
+.font-pair{
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Playfair Display';
+}
+
+.font-pair p{
+    margin: 0;
+    font-weight: 300;
+}
+
+.font-pair a{
+    font-weight: 300;
+}
+
+.main-wrapper .container .text-des{
+    margin: 100px auto;
+    width: 600px;
+}
+
+.text-des h2{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text-des p{
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+@media screen and (max-width:900px) {
+    .text-des{
+        width: 80%;
+       margin: 70px auto;
+    }
+
+}
+@media screen and (max-width:786px) {
+   .font-pair{
+    margin-left: 10%;
+   }
+}
+
+#latoRoboto h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lato';
+
+}
+
+#latoRoboto p{
+    margin-top: 30px;
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Roboto Condensed';
+}
+@media screen and (max-width:900px) {
+    #latoRoboto{
+        width: 80%;
+    }
+}
+
+#PlayfairFauna{
+    text-align: center;
+}
+
+ #PlayfairFauna a{
+    color: white;
+}
+
+#PlayfairFauna h2{
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+ #PlayfairFauna p{
+    font-family: 'Fauna one';
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:600px) {
+    #PlayfairFauna h2{
+        font-size: 40px;
+    }
+    #PlayfairFauna p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #PlayfairFauna{
+        width: 80%;
+        margin: 70px auto;
+    }
+}
+
+#CreepsterSancreek h2{
+    font-family: 'Creepster';
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+
+#CreepsterSancreek a{
+    color: #FFF;
+}
+
+#CreepsterSancreek p{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family:'Sancreek';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:900px) {
+ #CreepsterSancreek{
+    width: 80%;
+    margin: 70px auto;
+ }
+
+ #CreepsterSancreek h2{
+    font-size: 50px;
+ }
+
+ #CreepsterSancreek p{
+    margin-left: 0;
+ }
+    
+}
+
+@media screen and (max-width:600px) {
+    #CreepsterSancreek h2{
+       font-size: 40px;
+       text-align: center;
+    }
+   
+    #CreepsterSancreek p{
+       font-size: 14px;
+    }
+       
+   }
+
+#unicaVollkorn{
+    text-align: center;
+    width: 500px;
+   }
+#unicaVollkorn h2{
+    font-family: 'Uncia One';
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#unicaVollkorn p{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family:'Vollkorn';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:900px) {
+ #unicaVollkorn{
+    width: 80%;
+    margin: 70px auto;
+ }
+
+ #unicaVollkorn h2{
+    font-size: 50px;
+ }
+
+ #unicaVollkorn p{
+    margin-left: 0;
+ }
+    
+}
+
+@media screen and (max-width:600px) {
+    #unicaVollkorn h2{
+       font-size: 44px;
+    }
+   
+    #unicaVollkorn p{
+        margin-top: 30px;
+       font-size: 16px;
+       line-height: 1.5;
+    }
+       
+   }
+
+#OvoNeuton h2{
+    font-family: 'Ovo';
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#OvoNeuton p{
+    margin-top: 40px;
+    font-family:'Neuton';
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width:900px) {
+ #OvoNeuton{
+    width: 80%;
+    margin: 70px auto;
+ }
+
+ #OvoNeuton h2{
+    font-size: 60px;
+    font-weight: 500;
+ }
+    
+}
+
+@media screen and (max-width:600px) {
+    #OvoNeuton h2{
+       font-size: 50px;
+    }
+    #OvoNeuton p{
+       font-size: 18px;
+    }
+       
+}
+
+#VastshadowOswald{
+    text-align: center;
+    width: 800px;
+}
+
+#VastshadowOswald h2{
+    font-family:'Vast Shadow' ;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#VastshadowOswald a{
+    color: #FFF;
+}
+#VastshadowOswald p{
+    font-family: 'Oswald';
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+@media screen and (max-width:900px) {
+    #VastshadowOswald{
+       width: 80%;
+       margin: 70px auto;
+    }
+   
+    #VastshadowOswald h2{
+       font-size: 40px;
+       font-weight: 500;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #VastshadowOswald h2{
+          font-size: 50px;
+       }
+       #VastshadowOswald p{
+          font-size: 15px;
+       }
+          
+   }
+#PlayfairScQuattrocento{
+    text-align: center;
+    width: 500px;
+    color: #FFF;
+}
+
+#PlayfairScQuattrocento h2{
+    font-family: 'Playfair Display Sc';
+    font-size: 70px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#PlayfairScQuattrocento p{
+    margin-top: 50px;
+    font-family: 'Quattrocento';
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width:900px) {
+    #PlayfairScQuattrocento{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #PlayfairScQuattrocento h2{
+       font-size: 60px;
+       font-weight: 500;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #PlayfairScQuattrocento h2{
+          font-size: 50px;
+       }
+       #PlayfairScQuattrocento p{
+          font-size: 15px;
+       }    
+   }
+
+#UltraStintExpanded{
+    margin: 100px 150px;
+    width: 800px;
+}
+
+#UltraStintExpanded h2{
+    font-family:'Ultra' ;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#UltraStintExpanded p{
+    font-family:'Stint Ultra Expanded';
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 100;
+}
+@media screen and (max-width:900px) {
+    #UltraStintExpanded{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #UltraStintExpanded h2{
+       font-size: 60px;
+       font-weight: 700;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #UltraStintExpanded h2{
+          font-size: 45px;
+       }
+       #UltraStintExpanded p{
+          font-size: 16px;
+          line-height: 1.5;
+       }    
+   }
+
+
+#RyeCrimson{
+    width: 800px;
+    color: #FFF;
+}
+
+#RyeCrimson h2{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: 'Rye';
+}
+
+#RyeCrimson p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-family: 'Crimson Text';
+}
+
+#RyeCrimson a{
+    color: #FFF;
+}
+@media screen and (max-width:900px) {
+    #RyeCrimson{
+        width: 80%;
+        margin: 70px auto;
+     } 
+   }
+   
+   @media screen and (max-width:600px) {
+       #RyeCrimson h2{
+          font-size: 50px;
+       }
+       #RyeCrimson p{
+          font-size: 15px;
+          line-height: 1.5;
+          letter-spacing: 0.2px;
+       }    
+   }
+
+
+   #MontserratLora{
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: right;
+   }
+
+   #MontserratLora h2{
+    font-size: 66px;
+    font-weight: 100;
+    font-family: 'Montserrat';
+   }
+
+   #MontserratLora a{
+    color: #FFF;
+   }
+
+   #MontserratLora p{
+    font-family: 'Lora';
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+   }
+
+   @media screen and (max-width:900px) {
+    #MontserratLora{
+        width: 80%;
+        margin: 70px auto;
+     }
+   }
+   
+   @media screen and (max-width:600px) {
+       #MontserratLora h2{
+          font-size: 30px;
+       }
+       #MontserratLora p{
+          font-size: 15px;
+          line-height: 1.5;
+          letter-spacing: 0.2px;
+       }    
+   }
+
+
+#NixieQuattrocento{
+    width: 800px;
+}
+
+#NixieQuattrocento h2{
+    font-family: 'Nixie One';
+    font-size: 80px;
+    font-weight: 100;
+
+}
+
+#NixieQuattrocento p{
+    font-family: 'Quattrocento Sans';
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width:900px) {
+    #NixieQuattrocento{
+        width: 80%;
+        margin: 70px auto;
+     }
+   }
+   
+   @media screen and (max-width:600px) {
+       #NixieQuattrocento h2{
+          font-size: 40px;
+       }
+       #NixieQuattrocento p{
+        margin-left: 0;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+       }    
+   }
+
+   #MergrimRoboto{
+    width: 850px;
+    color: #FFF;
+   }
+
+   #MergrimRoboto h2{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: 'Megrim';
+   }
+
+   #MergrimRoboto p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-family: 'Roboto Slab';
+   }
+
+   @media screen and (max-width:900px) {
+    #MergrimRoboto{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #MergrimRoboto h2{
+       font-size: 60px;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #MergrimRoboto h2{
+          font-size: 60px;
+       }
+       #MergrimRoboto p{
+        font-size: 16px;
+       }    
+   }
+
+#juliusHalant{
+    text-align: center;
+}
+
+#juliusHalant h2{
+    font-family: 'Julius Sans one';
+    font-size: 80px;
+    font-weight: 100;
+}
+
+#juliusHalant p{
+    font-family: 'Halant';
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#juliusHalant a{
+    color: #FFF;
+}
+@media screen and (max-width:900px) {
+    #juliusHalant{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+   
+   @media screen and (max-width:600px) {
+       #juliusHalant h2{
+          font-size: 40px;
+       }
+       #juliusHalant p{
+        font-size: 16px;
+       }    
+   }
+
+#PhilosopherFanwood{
+    width: 650px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+#PhilosopherFanwood h2{
+    font-family: 'Philosopher';
+    font-size: 80px;
+    font-weight: 700;
+}
+
+
+
+#PhilosopherFanwood p{
+    font-family: 'Fanwood Text';
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:900px) {
+    #PhilosopherFanwood{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+
+   @media screen and (max-width:600px) {
+    #PhilosopherFanwood h2{
+       font-size: 40px;
+    }
+    #PhilosopherFanwood p{
+     font-size: 16px;
+    }    
+}
+
+#CinzelAmiri{
+    width: 700px;
+    text-align: left;
+    color: #FFF;
+}
+
+#CinzelAmiri h2{
+    font-family: 'Cinzel Decorative';
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+#CinzelAmiri p{
+    font-family: 'Amiri';
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: 0.5;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:900px) {
+    #CinzelAmiri{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+   
+   @media screen and (max-width:600px) {
+       #CinzelAmiri h2{
+          font-size: 36px;
+       }
+       #CinzelAmiri p{
+        font-size: 16px;
+        line-height: 1.5;
+       }    
+   }
+
+   #OswaldQuattrocento{
+    width: 700px;
+    text-align: center;
+    color: #FFF;
+   }
+
+   #OswaldQuattrocento h2{
+    font-family: 'Oswald';
+    font-size:76px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: 1px;
+   }
+
+   #OswaldQuattrocento a{
+    color: #FFF;
+   }
+
+   #OswaldQuattrocento p{
+    font-family: 'Quattrocento';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    margin-top: 30px;
+   }
+
+   @media screen and (max-width:900px) {
+    #OswaldQuattrocento{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+
+   @media screen and (max-width:600px) {
+    #OswaldQuattrocento h2{
+        font-size: 60px;
+     }
+
+     #OswaldQuattrocento p{
+        font-size: 16px;
+     }
+          
+   }
+   
+#YesevaMerriweather{
+    width: 750px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+#YesevaMerriweather h2{
+    font-family: 'Yeseva One';
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#YesevaMerriweather p{
+    font-family: 'Merriweather Sans';
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+@media screen and (max-width:900px) {
+    #YesevaMerriweather{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+   
+   @media screen and (max-width:600px) {
+      #YesevaMerriweather h2{
+        font-size: 40px;
+      }
+       #YesevaMerriweather p{
+        font-size: 14px;
+       }    
+   }
+
+   #AlmendraCardo{
+    width: 800px;
+    margin-top: 30px;
+    margin-left: 100px;
+   }
+
+   #AlmendraCardo h2{
+    font-size: 70px;
+    font-family: 'Almendra Display';
+    font-weight: 700;
+   }
+
+   #AlmendraCardo p{
+    font-family: 'Cardo';
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 100px;
+   }
+
+   @media screen and (max-width:900px) {
+    #AlmendraCardo{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+   
+   @media screen and (max-width:600px) {
+      #AlmendraCardo h2{
+        font-size: 50px;
+      }
+       #AlmendraCardo p{
+        font-size: 16px;
+        margin-left: 0;
+       }    
+   }
+
+   #MrDeDancing h2{
+    font-size: 80px;
+    font-family: 'Mr De Haviland';
+    text-transform: none;
+   }
+
+   #MrDeDancing a{
+    color: #FFF;
+   }
+
+   #MrDeDancing p{
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    line-height:1.5;
+    font-weight: 100;
+
+   }
+
+   @media screen and (max-width:900px) {
+    #MrDeDancing{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+   
+   @media screen and (max-width:600px) {
+      #MrDeDancing h2{
+        font-size: 60px;
+      }
+       #MrDeDancing p{
+        line-height: 1.5;
+       }    
+   }
+
+   #ShrikhandScope{
+    width: 700px;
+    text-align: right;
+   }
+
+   #ShrikhandScope a{
+    color: #FFF
+   }
+
+   #ShrikhandScope h2{
+    font-family:'Shrikhand' ;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+#ShrikhandScope p{
+    font-family:'Scope One' ;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:900px) {
+    #ShrikhandScope{
+        width: 80%;
+        margin: 70px auto;
+     }
+          
+   }
+   
+   @media screen and (max-width:600px) {
+      #ShrikhandScope h2{
+        font-size: 40px;
+      }
+       #ShrikhandScope p{
+        line-height: 1.5;
+       }    
+   }
+
+
+#CourgetteQuando{
+    text-align: center;
+    width: 500px;
+    color: #FFF;
+}
+
+#CourgetteQuando h2{
+    font-family: 'Courgette';
+    font-size: 70px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#CourgetteQuando p{
+    margin-top: 50px;
+    font-family: 'Quando';
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width:900px) {
+    #CourgetteQuando{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #CourgetteQuando h2{
+       font-size: 60px;
+       font-weight: 500;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #CourgetteQuando h2{
+          font-size: 50px;
+       }
+       #CourgetteQuando p{
+          font-size: 15px;
+       }    
+   }
+   
+ #LibrePress{
+    max-width: 450px;
+    float: right;
+    margin-right: 100px;
+ }
+
+ #LibrePress h2{
+    font-family: 'Libre Barcode 128 Text';
+    font-size: 80px;
+ }
+
+ #LibrePress p{
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+ }
+
+ #LibrePress a{
+    color: #FFF;
+ }
+
+ @media screen and (max-width:900px) {
+    #LibrePress{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #LibrePress h2{
+       font-size: 60px;
+       font-weight: 500; 
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+    #LibrePress{
+        float:none;
+     }
+       #LibrePress h2{
+          font-size: 40px;
+            margin-left: 0;
+       }
+       #LibrePress p{
+          font-size: 10px;
+       }    
+   }
+
+   #MacondoPacifico h2{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Macondo Swash Caps';
+}
+#MacondoPacifico a{
+    color: #FFFF;
+}
+#MacondoPacifico p{
+    margin-top: 30px;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Pacifico';
+}
+@media screen and (max-width:900px) {
+    #MacondoPacifico{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    #MacondoPacifico h2{
+        font-size: 50px;
+    }
+
+    #MacondoPacifico p{
+        font-size: 16px;
+    }
+
+}
+
+
+#BrunoVibes{
+    text-align: center;
+    /* color: #FFF; */
+}
+#BrunoVibes h2{
+    font-family: 'Bruno Ace Sc';
+    text-transform: none;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+ #BrunoVibes p{
+    /* font-family: 'Codystar'; */
+    font-family: 'Vibes';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:600px) {
+    #BrunoVibes h2{
+        font-size: 40px;
+    }
+    #BrunoVibes p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #BrunoVibes{
+        width: 80%;
+        margin: 70px auto;
+    }
+}
+
+#VenusChonburi h2{
+    font-family: 'Venus Plant';
+    font-size: 60px;
+    font-weight: 700;
+}
+#VenusChonburi a{
+    color: #FFF;
+}
+#VenusChonburi p{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family:'Chonburi';
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:900px) {
+ #VenusChonburi{
+    width: 80%;
+    margin: 70px auto;
+ }
+
+ #VenusChonburi h2{
+    font-size: 50px;
+ }
+
+ #VenusChonburi p{
+    margin-left: 0;
+ }
+    
+}
+
+@media screen and (max-width:600px) {
+    #VenusChonburi h2{
+       font-size: 40px;
+       text-align: center;
+    }
+   
+    #VenusChonburi p{
+       font-size: 14px;
+    }
+       
+   }
+
+
+#RomanBioRhyme h2{
+    font-family: 'Roman SD';
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#RomanBioRhyme p{
+    margin-top: 40px;
+    font-family:'BioRhyme';
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+#RomanBioRhyme a{
+    color: #FFF;
+}
+
+@media screen and (max-width:900px) {
+ #RomanBioRhyme{
+    width: 80%;
+    margin: 70px auto;
+ }
+
+ #RomanBioRhyme h2{
+    font-size: 60px;
+    font-weight: 500;
+ }
+    
+}
+
+@media screen and (max-width:600px) {
+    #RomanBioRhyme h2{
+       font-size: 50px;
+    }
+    #RomanBioRhyme p{
+       font-size: 15px;
+    }
+       
+}
+
+#RushJudson{
+    text-align: center;
+    width: 800px;
+}
+
+#RushJudson h2{
+    font-family:'Rush Turbo' ;
+    font-size: 60px;
+    font-weight: 700;
+}
+#RushJudson p{
+    font-family: 'Judson';
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+@media screen and (max-width:900px) {
+    #RushJudson{
+       width: 80%;
+       margin: 70px auto;
+    }
+   
+    #RushJudson h2{
+       font-size: 40px;
+       font-weight: 500;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #RushJudson h2{
+          font-size: 50px;
+       }
+       #RushJudson p{
+          font-size: 15px;
+       }
+          
+   }
+#AestheticSatisfy{
+    text-align: center;
+    width: 600px;
+    color: #FFF;
+}
+
+#AestheticSatisfy h2{
+    font-family: 'Aesthetic';
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+#AestheticSatisfy a{
+    color: #FFF;
+}
+
+#AestheticSatisfy p{
+    margin-top: 50px;
+    font-family: 'Satisfy';
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+@media screen and (max-width:900px) {
+    #AestheticSatisfy{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #AestheticSatisfy h2{
+       font-size: 60px;
+       font-weight: 500;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #AestheticSatisfy h2{
+          font-size: 40px;
+       }
+       #AestheticSatisfy p{
+          font-size: 18px;
+       }    
+   }
+
+#HollanburgFugaz{
+    margin: 100px 150px;
+    width: 800px;
+}
+
+#HollanburgFugaz h2{
+    font-family:'Hollandburg' ;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#HollanburgFugaz p{
+    font-family:'Fugaz One';
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 100;
+}
+@media screen and (max-width:900px) {
+    #HollanburgFugaz{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #HollanburgFugaz h2{
+       font-size: 60px;
+       font-weight: 700;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #HollanburgFugaz h2{
+          font-size: 45px;
+       }
+       #HollanburgFugaz p{
+          font-size: 16px;
+          line-height: 1.5;
+       }    
+   }
+
+
+#MonotonPoppins{
+    width: 800px;
+    color: #FFF;
+}
+
+#MonotonPoppins h2{
+    font-size: 70px;
+    font-weight: 100;
+    font-family: 'Monoton';
+}
+
+#MonotonPoppins a{
+    color: #FFF;
+}
+
+#MonotonPoppins p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-family: 'Poppins';
+}
+
+@media screen and (max-width:900px) {
+    #MonotonPoppins{
+        width: 80%;
+        margin: 70px auto;
+     }      
+   }
+   
+   @media screen and (max-width:600px) {
+       #MonotonPoppins h2{
+          font-size: 50px;
+       }
+       #MonotonPoppins p{
+          font-size: 15px;
+          line-height: 1.5;
+          letter-spacing: 0.2px;
+       }    
+   }
+
+
+   #LibreChristian{
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: right;
+   }
+
+   #LibreChristian h2{
+    font-size: 66px;
+    font-weight: 100;
+    font-family: 'Libre Baskerville';
+   }
+
+   #LibreChristian p{
+    font-family: 'Christian Sunday';
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+   }
+
+   @media screen and (max-width:900px) {
+    #LibreChristian{
+        width: 80%;
+        margin: 70px auto;
+     } 
+   }
+   
+   @media screen and (max-width:600px) {
+       #LibreChristian h2{
+          font-size: 30px;
+       }
+       #LibreChristian p{
+          font-size: 19px;
+          line-height: 1.5;
+          letter-spacing: 0.2px;
+       }    
+   }
+
+
+#CaesarUncial{
+    width: 800px;
+}
+
+#CaesarUncial h2{
+    font-family: 'Caesar';
+    font-size: 80px;
+    font-weight: 100;
+
+}
+
+#CaesarUncial a{
+    color: #FFF;
+}
+
+#CaesarUncial p{
+    font-family: 'Uncial Antiqua';
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width:900px) {
+    #CaesarUncial{
+        width: 80%;
+        margin: 70px auto;
+     } 
+   }
+   
+   @media screen and (max-width:600px) {
+       #CaesarUncial h2{
+          font-size: 40px;
+       }
+       #CaesarUncial p{
+        margin-left: 0;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+       }    
+   }
+
+   #MonogramsDelight{
+    width: 850px;
+    color: #FFF;
+   }
+
+   #MonogramsDelight h2{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: 'Monograms Toolbox';
+   }
+
+   #MonogramsDelight p{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    font-family: 'Delight Mother';
+   }
+
+   @media screen and (max-width:900px) {
+    #MonogramsDelight{
+        width: 80%;
+        margin: 70px auto;
+     }
+    #MonogramsDelight h2{
+       font-size: 60px;
+    }
+       
+   }
+   
+   @media screen and (max-width:600px) {
+       #MonogramsDelight h2{
+          font-size: 60px;
+       }
+       #MonogramsDelight p{
+        font-size: 18px;
+       }    
+   }
+
+   .footer{
+    background: #070707;
+    width: 100%;
+    height: 20px;
+    color: #BBB;
+    margin: 0px;
+
+   }
+
+   .copyright{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    background: #070707;
+   }
+
+   .footer a{
+    color: #BBB;
+   }

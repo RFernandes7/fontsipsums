@@ -1,0 +1,592 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+    src: url(fonts/RobotoCondensed-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative';
+    src: url(fonts/CinzelDecorative-Regular.ttf);
+    src: url(fonts/CinzelDecorative-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Creepster';
+    src: url(fonts/Creepster-Regular.ttf);
+    src: url(fonts/Creepster-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sancreek';
+    src: url(fonts/Sancreek-Regular.ttf);
+    src: url(fonts/Sancreek-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amiri";
+    src: url(fonts/Amiri-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+    src: url(fonts/PlayfairDisplay-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uncia One';
+    src: url(fonts/UnicaOne-Regular.ttf);
+    src: url(fonts/UnicaOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url(fonts/Vollkorn-Regular.ttf);
+    src: url(fonts/Vollkorn-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display Sc';
+    src: url(fonts/PlayfairDisplaySC-Regular.ttf);
+    src: url(fonts/PlayfairDisplaySC-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fauna One';
+    src: url(fonts/FaunaOne-Regular.ttf);
+    src: url(fonts/FaunaOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Megrim';
+    src: url(fonts/Megrim-Regular.ttf);
+    src: url(fonts/Megrim-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(fonts/RobotoSlab-Regular.ttf);
+    src: url(fonts/RobotoSlab-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ovo';
+    src: url(fonts/Ovo-Regular.ttf);
+    src: url(fonts/Ovo-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuton';
+    src: url(fonts/Neuton-Regular.ttf);
+    src: url(fonts/Neuton-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vast Shadow';
+    src: url(fonts/VastShadow-Regular.ttf);
+    src: url(fonts/VastShadow-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(fonts/Oswald-Regular.ttf);
+    src: url(fonts/Oswald-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento';
+    src: url(fonts/Quattrocento-Regular.ttf);
+    src: url(fonts/Quattrocento-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: url(fonts/QuattrocentoSans-Regular.ttf);
+    src: url(fonts/QuattrocentoSans-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fanwood Text';
+    src: url(fonts/FanwoodText-Regular.ttf);
+    src: url(fonts/FanwoodText-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Regular.ttf);
+    src: url(fonts/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rye';
+    src: url(fonts/Rye-Regular.ttf);
+    src: url(fonts/Rye-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ultra';
+    src: url(fonts/Ultra-Regular.ttf);
+    src: url(fonts/Ultra-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stint Ultra Expanded';
+    src: url(fonts/StintUltraExpanded-Regular.ttf);
+    src: url(fonts/StintUltraExpanded-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(fonts/Lora-Regular.ttf);
+    src: url(fonts/Lora-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nixie One';
+    src: url(fonts/NixieOne-Regular.ttf);
+    src: url(fonts/NixieOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Julius Sans one';
+    src: url(fonts/JuliusSansOne-Regular.ttf);
+    src: url(fonts/JuliusSansOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Crimson Text';
+    src: url(fonts/CrimsonText-Regular.ttf);
+    src: url(fonts/CrimsonText-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Almendra Display';
+    src: url(fonts/AlmendraDisplay-Regular.ttf);
+    src: url(fonts/AlmendraDisplay-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src: url(fonts/Cardo-Regular.ttf);
+    src: url(fonts/Cardo-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url(fonts/Philosopher-Regular.ttf);
+    src: url(fonts/Philosopher-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mr De Haviland';
+    src: url(fonts/MrDeHaviland-Regular.ttf);
+    src: url(fonts/MrDeHaviland-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+    src: url(fonts/DancingScript-VariableFont_wght.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url(fonts/YesevaOne-Regular.ttf);
+    src: url(fonts/YesevaOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather Sans';
+    src: url(fonts/MerriweatherSans-Regular.ttf);
+    src: url(fonts/MerriweatherSans-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url(fonts/Shrikhand-Regular.ttf);
+    src: url(fonts/Shrikhand-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scope One';
+    src: url(fonts/ScopeOne-Regular.ttf);
+    src: url(fonts/ScopeOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Halant';
+    src: url(fonts/Halant-Regular.ttf);
+    src: url(fonts/Halant-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Courgette';
+    src: url(fonts/Courgette-Regular.ttf);
+    src: url(fonts/Courgette-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quando';
+    src: url(fonts/Quando-Regular.ttf);
+    src: url(fonts/Quando-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(fonts/PressStart2P-Regular.ttf);
+    src: url(fonts/PressStart2P-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Barcode 128 Text';
+    src: url(fonts/LibreBarcode128Text-Regular.ttf);
+    src: url(fonts/LibreBarcode128Text-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(fonts/Pacifico-Regular.ttf);
+    src: url(fonts/Pacifico-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macondo Swash Caps';
+    src: url(fonts/MacondoSwashCaps-Regular.ttf);
+    src: url(fonts/MacondoSwashCaps-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bruno Ace Sc';
+    src: url(fonts/BrunoAceSC-Regular.ttf);
+    src: url(fonts/BrunoAceSC-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Codystar';
+    src: url(fonts/Codystar-Regular.ttf);
+    src: url(fonts/Codystar-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chonburi';
+    src: url(fonts/Chonburi-Regular.ttf);
+    src: url(fonts/Chonburi-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Venus Plant';
+    src: url(fonts/Venus\ Plant.ttf);
+    src: url(fonts/Venus\ Plant.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BioRhyme';
+    src: url(fonts/BioRhyme-Regular.ttf);
+    src: url(fonts/BioRhyme-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roman SD';
+    src: url(fonts/Roman\ SD.ttf);
+    src: url(fonts/Roman\ SD.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rush Turbo';
+    src: url(fonts/Rush\ Turbo.ttf);
+    src: url(fonts/Rush\ Turbo.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Judson';
+    src: url(fonts/Judson-Regular.ttf);
+    src: url(fonts/Judson-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aesthetic';
+    src: url(fonts/Aesthetic-Regular.ttf);
+    src: url(fonts/Aesthetic-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url(fonts/Satisfy-Regular.ttf);
+    src: url(fonts/Satisfy-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fugaz One';
+    src: url(fonts/FaunaOne-Regular.ttf);
+    src: url(fonts/FaunaOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hollandburg';
+    src: url(fonts/HollanburgDemoRegular.ttf);
+    src: url(fonts/HollanburgDemoRegular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monoton';
+    src: url(fonts/Monoton-Regular.ttf);
+    src: url(fonts/Monoton-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Christian Sunday';
+    src: url(fonts/Christian\ Sunday.ttf);
+    src: url(fonts/Christian\ Sunday.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(fonts/LibreBaskerville-Regular.ttf);
+    src: url(fonts/LibreBaskerville-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caesar';
+    src: url(fonts/CAESAR.TTF);
+    src: url(fonts/CAESAR.TTF) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uncial Antiqua';
+    src: url(fonts/UncialAntiqua-Regular.ttf);
+    src: url(fonts/UncialAntiqua-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+} 
+
+    
+    @font-face {
+        font-family: 'Delight Mother';
+        src: url(fonts/Delight\ Mother.ttf);
+        src: url(fonts/Delight\ Mother.ttf) format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    } 
+    
+    @font-face {
+        font-family: 'Monograms Toolbox';
+        src: url(fonts/MonogramsToolbox.ttf);
+        src: url(fonts/MonogramsToolbox.ttf) format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    } 
+    @font-face {
+        font-family: 'Nosifer';
+        src: url(fonts/Nosifer-Regular.ttf);
+        src: url(fonts/Nosifer-Regular.ttf) format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Royal Acidbath';
+        src: url(fonts/Royalacid_o.ttf);
+        src: url(fonts/Royalacid_o.ttf) format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+       
+@font-face {
+    font-family: 'Erica One';
+    src: url(fonts/EricaOne-Regular.ttf);
+    src: url(fonts/EricaOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vibes';
+    src: url(fonts/Vibes-Regular.ttf);
+    src: url(fonts/Vibes-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Fjord one';
+    src: url(fonts/FjordOne-Regular.ttf);
+    src: url(fonts/FjordOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Smokum';
+    src: url(fonts/Smokum-Regular.ttf);
+    src: url(fonts/Smokum-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url(fonts/AlfaSlabOne-Regular.ttf);
+    src: url(fonts/AlfaSlabOne-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Monda';
+    src: url(fonts/Monda-Regular.ttf);
+    src: url(fonts/Monda-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Slabo 13px';
+    src: url(fonts/Slabo13px-Regular.ttf);
+    src: url(fonts/Slabo13px-Regular.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
